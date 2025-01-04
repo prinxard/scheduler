@@ -11,7 +11,7 @@ router.post('/', todoController_1.createTodo);
 // Get all Todos
 router.get('/', todoController_1.getTodos);
 // Update a Todo
-router.put('/:id', todoController_1.updateTodo); // :id is the placeholder for the Todo ID
+router.put('/:id', todoController_1.updateTodo);
 // Delete a Todo
-router.delete('/:id', todoController_1.deleteTodo); // :id is the placeholder for the Todo ID
+router.delete('/:id', todoController_1.deleteTodo);
 exports.default = router;
