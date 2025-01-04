@@ -3,6 +3,7 @@ import { createTodo, getTodos, updateTodo, deleteTodo } from '../controllers/tod
 
 const router = express.Router();
 
+
 // Create a Todo
 router.post('/', createTodo);
 
@@ -10,9 +11,9 @@ router.post('/', createTodo);
 router.get('/', getTodos);
 
 // Update a Todo
-router.put('/:id', updateTodo);  // :id is the placeholder for the Todo ID
+router.put('/:id', updateTodo);  
 
 // Delete a Todo
-router.delete('/:id', deleteTodo);  // :id is the placeholder for the Todo ID
+router.delete('/:id', deleteTodo);  
 
 export default router;
