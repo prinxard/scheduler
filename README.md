@@ -9,6 +9,7 @@ A simple RESTful API for managing Todos. This project is built with Node.js, Exp
 
 ## Getting Started
 
+
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm (v7 or higher)
