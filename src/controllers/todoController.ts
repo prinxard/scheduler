@@ -51,6 +51,7 @@ export const updateTodo: RequestHandler = async (req: Request, res: Response): P
       return;  // Ensure the function doesn't continue after sending the response
     }
 
+    
     const updatedTodo = await prisma.todo.update({
       where: { id: Number(id) },
       data: {
